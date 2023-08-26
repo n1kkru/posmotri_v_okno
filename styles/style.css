@@ -36,3 +36,62 @@ ul,
 ol {
   list-style: none;
 }
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  padding: 133px 30px;
+
+}
+
+.result__video-container {
+  padding-bottom: 26px;
+  min-width: 711px;
+  min-height: 386px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__details {
+  min-height: 534px;
+  min-width: 399px;
+}
+
+.content__list {
+  padding-top: 26px;
+  max-height: 298px;
+  overflow: auto;
+}
+
+.content__list li:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: start;
+  justify-content:space-around;
+}
+
+.content__video-card-description-container {
+  height: 100%;
+  width: 100%;
+}
+
+.content__video-card-thumbnail {
+  max-height: 194px; 
+  min-width: 103px;
+
+}
