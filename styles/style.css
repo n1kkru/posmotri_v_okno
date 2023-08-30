@@ -41,7 +41,9 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: end;
+  margin: auto;
   align-content: center;
+  min-height: 100vh;
   gap: 30px;
   padding: 133px 30px;
 }
