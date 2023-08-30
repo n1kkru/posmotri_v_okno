@@ -39,7 +39,8 @@ ol {
 
 .content {
   display: flex;
-  align-items: stretch;
+  align-items: end;
+  align-content: center;
   gap: 30px;
   padding: 133px 30px;
 }
@@ -126,6 +127,10 @@ ol {
   outline: 1px solid #fff;
 }
 
+.search-form__textfield:active {
+  outline: none;
+}
+
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
@@ -142,18 +147,20 @@ ol {
   vertical-align: middle;
   background-color: transparent;
   border: 1px solid #fff;
-  width: 19px;
-  height: 19px;
+  width: 20px;
+  height: 20px;
   position: relative;
 }
 
-.search-form__checkbox:checked+.search-form__pseudo-checkbox::before {
-  content: "";
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  content: '';
+  display: block;
   width: 15px;
   height: 15px;
-  position: absolute;
-  left: 1px;
-  top: 1px;
+  margin: 1.5px auto;
+  /* position: absolute; */
+  /* left: 1px; */
+  /* top: 1px; */
   background: #fff;
 }
 
