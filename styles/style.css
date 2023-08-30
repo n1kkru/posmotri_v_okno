@@ -38,7 +38,8 @@ ol {
 }
 
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: end;
   align-content: center;
   gap: 30px;
@@ -158,9 +159,6 @@ ol {
   width: 15px;
   height: 15px;
   margin: 1.5px auto;
-  /* position: absolute; */
-  /* left: 1px; */
-  /* top: 1px; */
   background: #fff;
 }
 
