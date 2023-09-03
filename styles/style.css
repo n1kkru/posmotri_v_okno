@@ -86,7 +86,7 @@ ol {
   padding: 2px 1px;
 }
 
-.search-form__label:hover,
+.search-form__label:hover .search-form__label-text,
 .button:hover,
 .content__card-link:hover {
   text-decoration: underline;
@@ -264,8 +264,9 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-height: 194px;
-  min-width: 103px;
+  width: 194px;
+  height: 103px;
+  flex-shrink: 0;
 }
 
 .more-button {
